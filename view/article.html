@@ -1,0 +1,19 @@
+<article>
+    <div class="article-attachment">
+        <h1><a ng-href="#{{post.url}}.html">{{post.title}}</a></h1>
+
+        <div class="parts">
+            <span class="mtime">
+                最后修改时间：{{post.mtime | date:"yyyy-MM-dd HH:mm:ss"}}
+            </span>
+            <span class="ctime">
+                文章创建时间：{{post.birthtime | date:"yyyy-MM-dd HH:mm:ss"}}
+            </span>
+            <span class="author">
+                作者：{{post.author}}
+            </span>
+        </div>
+    </div>
+    <div class="markdown" ng-bind-html="post.content"></div>
+    <div class="extend"></div>
+</article>
