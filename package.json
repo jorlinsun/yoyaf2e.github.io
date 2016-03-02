@@ -1,0 +1,19 @@
+{
+  "name": "Terrill",
+  "version": "1.0.0",
+  "description": "A pure js and json blog use angulars and nodejs",
+  "main": "bundle.js",
+  "dependencies": {
+    "pinyin": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bundle.js"
+  },
+  "keywords": [
+    "angularjs",
+    "blog"
+  ],
+  "author": "TERRILLTANG",
+  "license": "ISC"
+}

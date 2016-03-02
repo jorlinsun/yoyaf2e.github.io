@@ -1,0 +1,89 @@
+html{
+    font-size:100px;
+}
+.markdown{
+    width:100%;
+    overflow:hidden;
+    color:#333;
+}
+.markdown img{
+    max-width:100%;
+    margin:0 auto;
+}
+.markdown a{
+    color:#26A8B8;
+}
+
+
+
+/*h1,h2,h3,h4,h5,h6*/
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6{
+    margin:0.16rem auto;
+    color:#222;
+}
+.markdown h1{
+    font-size:0.26rem;
+}
+.markdown h2{
+    font-size:0.24rem;
+}
+.markdown h3{
+    font-size:0.22rem;
+}
+.markdown h4{
+    font-size:0.20rem;
+}
+.markdown h5{
+    font-size:0.18rem;
+}
+.markdown h6{
+    font-size:0.16rem;
+}
+
+
+/*p*/
+.markdown p{
+    margin:0.10rem auto;
+    font-size:0.16rem;
+    color:#444;
+    line-height:0.34rem;
+}
+
+/*ul ol li*/
+.markdown ul,
+.markdown ol{
+    font-size:0.16rem;
+    color:#666;
+}
+.markdown li{
+    line-height:0.24rem;
+}
+
+
+/*pre*/
+.markdown pre{
+    background:#F6F6F6;
+    padding:0.20rem 0.10rem;
+    overflow:hidden;
+    white-space: pre-wrap;
+
+}
+.markdown pre code{
+    font-size:0.16rem;
+    color:#777;
+    line-height:0.24rem;
+    font-family:Monaco,Menlo,Consolas,"Courier New","Microsoft YaHei",Roboto, "Helvetica Neue",sans-serif;
+}
+
+/*blockquote*/
+.markdown blockquote{
+    border-left:0.06rem solid #666;
+    padding:0.04rem 0.10rem;
+    margin:0.10rem 0.20rem;
+    background:#F9F9F9;
+}
