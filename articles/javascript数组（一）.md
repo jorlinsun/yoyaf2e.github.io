@@ -1,6 +1,10 @@
 ##javascript数组一##
-> www.w3cplus.com--javascript学习笔记：数组（一）
 
+时间：2016/3/3
+
+作者：caiwl
+
+###正文：###
 **数组简介**
 
 数组(Array)简单的理解就是按次序排列的一组值。每个值的位置都有自己的编号，而且这个编号是从0开始。例如：
@@ -90,3 +94,6 @@ arr.length; // 3
 arr.length = 4; //设置数组arr的length值为4
 arr[3]; //undefined 
 ```
+
+###引用：###
+> www.w3cplus.com--javascript学习笔记：数组（一）
