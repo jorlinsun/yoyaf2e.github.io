@@ -259,6 +259,7 @@ TypeNews.prototype.getElement = function(){
 
 
 完整代码如下:
+```javascript
 	<script type="text/javascript">
 		function ineritObject(o) {
 			function F(){}
@@ -480,3 +481,4 @@ TypeNews.prototype.getElement = function(){
 	    		)
 	    	).show();
     </script>
+```
