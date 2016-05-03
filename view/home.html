@@ -1,4 +1,4 @@
-<article ng-repeat="article in articles | orderBy : 'birthtime'">
+<article ng-repeat="article in articles | orderBy : '-birthtime'">
     <div class="article-attachment">
         <h1><a ng-href="#{{article.url}}.html">{{article.title}}</a></h1>
 
