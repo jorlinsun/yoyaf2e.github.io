@@ -1,4 +1,4 @@
-<article ng-repeat="article in articles track by $index | orderBy : article.mtime">
+<article ng-repeat="article in articles track by $index | orderBy : article.birthtime">
     <div class="article-attachment">
         <h1><a ng-href="#{{article.url}}.html">{{article.title}}</a></h1>
 
@@ -9,9 +9,9 @@
             <span class="ctime">
                 文章创建时间：{{article.birthtime | date:"yyyy-MM-dd HH:mm:ss"}}
             </span>
-            <span class="author">
+       <!--      <span class="author">
                 作者：{{article.author}}
-            </span>
+            </span> -->
         </div>
     </div>
     <!-- <div class="markdown" ng-bind-html="article.content"></div>
