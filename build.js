@@ -21,7 +21,7 @@ function ar(str) {
     if (authorReg.test(str)) {
         return str.match(authorReg)[0].replace(/@/g, "");
     } else {
-        return "TERRILLTANG";
+        return "CAIWENLONG";
     }
 }
 
